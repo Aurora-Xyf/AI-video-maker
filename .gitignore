@@ -253,3 +253,10 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 fd659861480db00fc833d1bef8493c91a996be09
+
+# 忽略大模型、视频、缓存
+resource/storage/
+__pycache__/
+*.mp4
+*.pth
+*.onnx
